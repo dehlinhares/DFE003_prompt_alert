@@ -4,8 +4,8 @@ const Resultado = alert("O dobro do seu número é " + Dobro);
 
 
 const ValorDaConta = prompt("Valor da Conta");
-//const TaxaDoGarçom = ValorDaConta * 0.10;
-const ValorTotal =  ValorDaConta * 0.10 + ValorDaConta;
+const TaxaDoGarçom = ValorDaConta * 0.10;
+const ValorTotal =  ValorDaConta + TaxaDoGarçom;
 const ValorFinal = alert("O Valor a ser pago é: "+ ValorTotal);
 
 const ContaDaPizza = prompt("Valor da conta");
